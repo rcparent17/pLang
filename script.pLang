@@ -1,0 +1,5 @@
+VAR x ADD 7 9
+VAR y 9
+PRINT hello
+PRINT x
+PRINT y
