@@ -1,5 +1,27 @@
-VAR x ADD 7 9
-VAR y 9
-PRINT hello
-PRINT x
-PRINT y
+VAR calcs INPUT NumCalculations:
+FOR 1 calcs
+PRINT calculator
+PRINT ..........
+PRINT 1-add
+PRINT 2-subtract
+PRINT 3-multiply
+PRINT 4-divide
+PRINT 5-modulo
+VAR in INPUT choice:
+VAR num1 INPUT num1:
+VAR num2 INPUT num2:
+IF in=1
+INIF ADD num1 num2
+IF in=2
+INIF SUB num1 num2
+IF in=3
+INIF MULT num1 num2
+IF in=4
+INIF DIV num1 num2
+IF in=5
+INIF MOD num1 num2
+IF in>5
+INIF PRINT Invalid
+IF in<1
+INIF PRINT Invalid
+ENDFOR
